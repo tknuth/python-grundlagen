@@ -7,15 +7,19 @@
 # %%
 'Das Wort "Wort" ist ein Substantiv'
 
+
 # %%
 greeting = "Guten Morgen"
 name = "Anna"
 
+
 # %%
 greeting + ", " + name
 
+
 # %%
 f"{greeting}, {name}"
+
 
 # %%
 3 * "ab" + "c"
