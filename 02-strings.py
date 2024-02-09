@@ -3,15 +3,12 @@
 # %%
 'Das Wort "Wort" ist ein Substantiv'
 
-
 # %%
 'Das Wort "Wort" ist ein Substantiv'
-
 
 # %%
 greeting = "Guten Morgen"
 name = "Anna"
-
 
 # %%
 long_text = (
@@ -24,17 +21,14 @@ long_text = (
 # %%
 greeting + ", " + name
 
-
 # %%
 f"{greeting}, {name}"
-
 
 # %%
 new_greeting = greeting.replace("Morgen", "Abend")
 
 # %%
 help(str.replace)
-
 
 # %%
 3 * "ab" + "c"
