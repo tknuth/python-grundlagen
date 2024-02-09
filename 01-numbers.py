@@ -21,7 +21,7 @@
 
 
 # %%
-17 % 3  # remainder
+17 % 3  # modulus/remainder
 
 
 # %%
@@ -40,3 +40,8 @@ math.inf * 0
 
 # %%
 math.sqrt(2)
+
+
+# %%
+# beware of floating point precision
+0.1 + 0.2 == 0.3
