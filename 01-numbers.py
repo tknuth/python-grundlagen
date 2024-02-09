@@ -10,13 +10,13 @@
 (50 - 5 * 6) / 4
 
 # %%
-8 / 5  # floating point number
+8 / 5  # Fließkommazahl
 
 # %%
-17 // 3  # floor division
+17 // 3  # Ganzzahldivision
 
 # %%
-17 % 3  # modulus/remainder
+17 % 3  # Modulus/Rest
 
 # %%
 5**2
