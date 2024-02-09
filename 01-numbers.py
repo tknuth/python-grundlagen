@@ -33,5 +33,5 @@ math.inf * 0
 math.sqrt(2)
 
 # %%
-# beware of floating point precision
+# Vorsicht, Fließkommazahlen können zu unerwarteten Ergebnissen führen
 0.1 + 0.2 == 0.3
