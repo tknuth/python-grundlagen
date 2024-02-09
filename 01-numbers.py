@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 # %%
+1 # Ganzzahl
+
+# %%
+1.3 # Fließkommazahl
+
+# %%
 2 + 2
 
 # %%
@@ -10,7 +16,7 @@
 (50 - 5 * 6) / 4
 
 # %%
-8 / 5  # Fließkommazahl
+8 / 5
 
 # %%
 17 // 3  # Ganzzahldivision
