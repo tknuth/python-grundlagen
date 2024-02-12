@@ -41,3 +41,13 @@ for k in inventory:
 # %%
 for k, v in inventory.items():
     print(f"{k}: {v}")
+
+
+# %%
+[x**2 for x in range(5)]
+
+# %%
+{v: len(v) for v in ["Apfel", "Banane", "Melone"]}
+
+# %%
+[f"{v}x {k}" for k, v in inventory.items()]
