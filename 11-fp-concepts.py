@@ -9,7 +9,7 @@ def push(x):
 
 
 push(1)
-l
+
 
 # %%
 l = []
@@ -22,6 +22,7 @@ def push(x):
 
 push(1)
 
+
 # %%
 l = []
 
@@ -32,6 +33,7 @@ def push(lst, x):
 
 
 push(l, 1)
+
 
 # %%
 l = []
@@ -44,6 +46,7 @@ def push(lst, x):
 
 
 push(l, 1)
+
 
 # %%
 l = []
@@ -71,7 +74,6 @@ def double(x):
 
 apply(double, 5)
 apply(square, 5)
-
 
 # %%
 values = [1, 2, 3, 4, 5]
