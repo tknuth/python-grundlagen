@@ -7,11 +7,11 @@
 s = "Hallo Welt!"  # Zuweisung von Variablen
 
 # %%
-# %%
 s[:5]  # Slicing
 
 # %%
 3 + 5  # Addition von Zahlen
+
 # %%
 "3" + "5"  # Konkatenation von Strings
 
