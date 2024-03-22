@@ -7,7 +7,10 @@
 s = "Hallo Welt!"  # Zuweisung von Variablen
 
 # %%
-s[:5]  # Slicing
+s[0] # Der Index beginnt bei 0
+
+# %%
+s[3:5] # Slicing ist ein Intervall [a:b)
 
 # %%
 3 + 5  # Addition von Zahlen
