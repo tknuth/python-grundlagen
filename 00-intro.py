@@ -10,7 +10,10 @@ s = "Hallo Welt!"  # Zuweisung von Variablen
 s[0] # Der Index beginnt bei 0
 
 # %%
-s[3:5] # Slicing ist ein Intervall [a:b)
+s[3:5] # Slicing bildet ein Intervall [a:b)
+
+# %%
+s[3:] # Beide Grenzen sind optional
 
 # %%
 3 + 5  # Addition von Zahlen
