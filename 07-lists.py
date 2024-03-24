@@ -15,6 +15,9 @@ values[2:]
 # %%
 values + values
 
+% ##
+a, b = [1, 2]
+
 # %%
 [[1, 2], [3, 4]]
 
@@ -62,5 +65,5 @@ values
 # %%
 list(reversed(values))
 
-# %m
+# %%
 sorted(values)
