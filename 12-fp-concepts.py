@@ -10,6 +10,7 @@ def push(x):
 
 push(1)
 
+
 # %%
 l = []
 
@@ -20,6 +21,7 @@ def push(x):
 
 
 push(1)
+
 
 # %%
 l = []
@@ -72,21 +74,25 @@ def double(x):
 apply(double, 5)
 apply(square, 5)
 
+
 # %%
 values = [1, 2, 3, 4, 5]
-
 list(map(square, values))
+
 
 # %%
 list(map(lambda x: x**2, values))
 
+
 # %%
 list(filter(lambda x: x % 2 == 0, values))
+
 
 # %%
 from functools import reduce
 
 reduce(lambda x, y: x + y, values)
+
 
 # %%
 from toolz.curried import *
