@@ -19,6 +19,7 @@ for language in languages:
 for i, language in enumerate(languages):
     print(f"{i+1}. {language}")
 
+
 # %%
 for i in range(10):
     # Gib eine Zahl aus, wenn sie gerade ist
