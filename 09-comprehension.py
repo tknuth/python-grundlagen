@@ -15,3 +15,6 @@ inventory = {"Apfel": 2, "Banane": 3}
 
 # %%
 [k for k, v in inventory.items() if v > 2]
+
+# %%
+[-x - 1 if x % 2 == 0 else x for x in range(10)]
