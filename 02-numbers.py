@@ -29,7 +29,6 @@
 
 
 # %%
-
 17 % 3  # Modulus/Rest
 
 
