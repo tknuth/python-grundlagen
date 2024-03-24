@@ -10,5 +10,4 @@
 
 # %%
 inventory = {"Apfel": 2, "Banane": 3}
-
 [f"{v}x {k}" for k, v in inventory.items()]
