@@ -1,27 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 # %%
-def f():
-    pass
-
-
-# %%
-def greet(name):
-    print(f"Hallo {name}!")
-
-
-greet("Max")
-
-
-# %%
-def greet(name="du"):
-    print(f"Hallo {name}!")
-
-
-greet()
-
-
-# %%
 def greet(*names):
     print("Hallo " + ", ".join(names) + "!")
 

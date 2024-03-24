@@ -6,12 +6,14 @@ languages = ["C", "C++", "Python", "Java", "Ruby", "JavaScript"]
 for language in languages:
     print(language)
 
+
 # %%
 for language in languages:
     print(language)
     if language == "Python":
         print("Python gefunden!")
         break
+
 
 # %%
 for i, language in enumerate(languages):
@@ -31,23 +33,3 @@ while i < 10:
     if i % 2 == 0:
         continue
     print(i)
-
-# %%
-inventory = {"Apfel": 2, "Banane": 3}
-
-for k in inventory:
-    print(f"{k}: {inventory[k]}")
-
-# %%
-for k, v in inventory.items():
-    print(f"{k}: {v}")
-
-
-# %%
-[x**2 for x in range(5)]
-
-# %%
-{v: len(v) for v in ["Apfel", "Banane", "Melone"]}
-
-# %%
-[f"{v}x {k}" for k, v in inventory.items()]

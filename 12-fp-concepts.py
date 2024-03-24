@@ -10,7 +10,6 @@ def push(x):
 
 push(1)
 
-
 # %%
 l = []
 
@@ -21,7 +20,6 @@ def push(x):
 
 
 push(1)
-
 
 # %%
 l = []
@@ -46,7 +44,6 @@ def push(lst, x):
 
 
 push(l, 1)
-
 
 # %%
 l = []

@@ -78,3 +78,13 @@ print(1 | 2)
 
 # %%
 {("a", "b"): 1}
+
+# %%
+inventory = {"Apfel": 2, "Banane": 3}
+
+for k in inventory:
+    print(f"{k}: {inventory[k]}")
+
+# %%
+for k, v in inventory.items():
+    print(f"{k}: {v}")

@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 # %%
-1 # Ganzzahl
+1  # Ganzzahl
 
 # %%
-1.3 # Fließkommazahl
+1.3  # Fließkommazahl
 
 # %%
 2 + 2
