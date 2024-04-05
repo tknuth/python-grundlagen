@@ -12,7 +12,7 @@ print(f"{1 >= 0}")
 
 # %%
 # paarweise Vergleiche
-print(f"{2 >  1 > 0}")
+print(f"{2 > 1 > 0}")
 
 
 # %%
