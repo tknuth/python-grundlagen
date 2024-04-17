@@ -25,6 +25,17 @@ def add_one(x):
 
 
 # %%
+def multiply(*args):
+    n = 1
+    for arg in args:
+        n *= arg
+    return n
+
+
+multiply(2, 3)
+
+
+# %%
 def greet(name):
     print(f"Hallo {name}!")
 
