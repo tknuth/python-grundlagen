@@ -49,3 +49,34 @@ def greet(name="du"):
 
 
 greet()
+
+
+# %%
+def greet(type="Hallo", name="du"):
+    print(f"{type} {name}!")
+
+
+# %%
+# Der lokale Namensraum hat Vorrang
+a = 0
+c = 1
+
+
+def add(a, b):
+    print(f"{a=}, {b=}, {c=}")
+    return a + b
+
+
+add(3, 4)
+
+
+# %%
+# Variablen bleiben im lokalen Kontext
+def add(a, b):
+    c = 2
+    print(f"{a=}, {b=}, {c=}")
+    return a + b
+
+
+add(3, 4)
+print(c)
