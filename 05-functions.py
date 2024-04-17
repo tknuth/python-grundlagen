@@ -58,13 +58,11 @@ def greet(type="Hallo", name="du"):
 
 # %%
 # Der lokale Namensraum hat Vorrang
-a = 0
 c = 1
 
 
 def add(a, b):
-    print(f"{a=}, {b=}, {c=}")
-    return a + b
+    return a + b + c
 
 
 add(3, 4)
@@ -72,11 +70,11 @@ add(3, 4)
 
 # %%
 # Variablen bleiben im lokalen Kontext
+# c hat am Ende immer noch den Wert 1
 def add(a, b):
     c = 2
-    print(f"{a=}, {b=}, {c=}")
-    return a + b
+    return a + b + c
 
 
-add(3, 4)
+print(add(3, 4))
 print(c)
