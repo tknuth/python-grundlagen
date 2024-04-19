@@ -59,6 +59,9 @@ for i in l:
 
 
 # %%
-# Funktion
+# Funktionsdefinition
 def f(x):
     return x**2
+
+
+f(3)  # Funktionsaufruf
