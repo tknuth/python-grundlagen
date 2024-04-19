@@ -24,7 +24,7 @@ for i, language in enumerate(languages):
 
 
 # %%
-# `range`` erzeugt eine Sequenz von 0 bis n-1.
+# `range` erzeugt eine Sequenz von 0 bis n-1.
 for i in range(10):
     # Gib eine Zahl aus, wenn sie gerade ist
     if i % 2 == 0:
