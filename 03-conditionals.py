@@ -20,6 +20,10 @@ print(f"{2 > 1 > 0}")
 
 
 # %%
+# Es kann beliebig viele elif-Blöcke geben.
+# elif/else sind optional.
+# Die korrekte Einrückung ist wichtig,
+# damit der Code der Bedingung zugeordnet wird.
 weather = "Regen"
 
 if weather == "Regen":

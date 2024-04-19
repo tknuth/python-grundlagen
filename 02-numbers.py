@@ -51,5 +51,5 @@ math.sqrt(2)
 
 
 # %%
-# Vorsicht, Fließkommazahlen können zu unerwarteten Ergebnissen führen
+# Vorsicht, Fließkommazahlen können zu unerwarteten Ergebnissen führen.
 0.1 + 0.2 == 0.3
