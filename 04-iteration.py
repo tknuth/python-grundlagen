@@ -52,6 +52,7 @@ while True:
         break
     i += 1
 
+
 # %%
 # In diesem Fall kann die Bedingung allerdings
 # auch direkt zu Beginn geprüft werden.
@@ -60,6 +61,7 @@ n = 100
 while input("Fortfahren (j/n)?") == "j":
     print(f"2^{i} = {2**i}")
     i += 1
+
 
 # %%
 # Der Code berechnet die Primzahlen bis n.
