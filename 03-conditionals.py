@@ -5,25 +5,28 @@ type(True)
 
 
 # %%
+# Vergleiche ergeben Wahrheitswerte.
 print(f"{1 == 1}")
 print(f"{1 != 0}")
 print(f"{1 >= 0}")
 
 
 # %%
-# paarweise Vergleiche
+# Die beiden Varianten sind äquivalent.
 print(f"{2 > 1 > 0}")
+print(f"{2 > 1 and 1 > 0}")
 
 
 # %%
+# Mit `in`-Operator wird geprüft,
+# ob ein Element in einer Liste enthalten ist.
 "a" in ["a", "b", "c"]
 
 
 # %%
-# Es kann beliebig viele elif-Blöcke geben.
-# elif/else sind optional.
 # Die korrekte Einrückung ist wichtig,
 # damit der Code der Bedingung zugeordnet wird.
+# Es kann beliebig viele elif-Blöcke geben.
 weather = "Regen"
 
 if weather == "Regen":
@@ -37,10 +40,11 @@ else:
 
 
 # %%
+# if-else als Ausdruck
 a = 1
 b = 2
 
-3 if a > b else 4
+c = 3 if a > b else 4
 
 # %%
 # Truthy/Falsy und Short-Circuiting

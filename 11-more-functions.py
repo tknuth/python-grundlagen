@@ -1,5 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
+
+
+# %%
+# Diese Funktion lässt beliebig viele Argumente zu.
+# Der `*`-Operator packt die Argumente in ein Tupel,
+# also eine unveränderliche Liste.
+def multiply(*args):
+    n = 1
+    for arg in args:
+        n *= arg
+    return n
+
+
 # %%
 def greet(*names):
     print("Hallo " + ", ".join(names) + "!")
