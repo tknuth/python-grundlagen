@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 # %%
-print("Willkommen im JupyterLab!")
+print("Willkommen zu Python!")
 
 # %%
 # Ganzzahl
