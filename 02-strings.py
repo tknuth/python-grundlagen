@@ -14,6 +14,25 @@ name = "Anna"
 
 
 # %%
+s = "Hallo Welt!"
+
+
+# %%
+# Der Index beginnt bei 0.
+s[0]
+
+
+# %%
+# Slicing bildet ein Intervall [a:b).
+s[3:5]
+
+
+# %%
+# Beide Grenzen sind optional.
+s[3:]
+
+
+# %%
 long_text = (
     "Dies ist ein langer Text, "
     "der über mehrere Zeilen geht. "
