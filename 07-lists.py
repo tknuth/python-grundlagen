@@ -58,6 +58,7 @@ values = [1, "zwei", 3.0, True, None, [1, 2, 3]]
 values[1] = 2
 values
 
+
 # %%
 # Listen können auch verschachtelt sein.
 [[1, 2], [3, 4]]
@@ -67,6 +68,7 @@ values
 # sondern geben ein Objekt zurück, das iteriert werden kann.
 # Mit `list` wird das Objekt in eine Liste umgewandelt.
 list(reversed(values))
+
 
 # %%
 # Mit `zip` können zwei Listen paarweise zusammengeführt werden.
