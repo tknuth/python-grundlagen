@@ -84,6 +84,7 @@ help(print)
 # Die Funktion `type` gibt den Datentyp an.
 type(3.1)
 
+
 # %%
 # Was passiert hier?
 a = input("Nenne eine ganze Zahl für a:")
