@@ -103,3 +103,22 @@ def add(a, b):
 
 print(add(3, 4))
 print(c)
+
+
+# %%
+# Vervollständigen Sie den Code.
+def faculty(n):
+    pass
+
+
+faculty(5)  # 120
+
+
+# %%
+# Vervollständigen Sie den Code.
+# Vgl. https://de.wikipedia.org/wiki/Fibonacci-Folge
+def fibonacci(n):
+    pass
+
+
+fibonacci(7)  # 13
