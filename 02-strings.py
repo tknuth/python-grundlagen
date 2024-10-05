@@ -34,7 +34,7 @@ s[3:]
 
 # %%
 # Ein drittes Argument ist die Schrittweite.
-s[::2]
+s[::3]
 
 
 # %%
