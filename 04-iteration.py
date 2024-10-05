@@ -78,3 +78,46 @@ for i in range(2, n):
         primes.append(i)
 
 primes
+
+
+# %%
+# Schreiben Sie ein Programm, das die Fakultät einer Zahl berechnet.
+n = 5
+
+
+# %%
+# Schreiben Sie ein Programm,
+# das alle ganzen Zahlen im Bereich von a und b ausgibt,
+# die durch x teilbar sind, aber nicht durch y.
+a = 1
+b = 100
+x = 3
+y = 5
+
+
+# %%
+# Schreiben Sie ein Programm,
+# mit dem Sie die Quersumme einer Zahl berechnen können.
+n = 199
+
+
+# %%
+# Erstellen Sie ein Quiz mit fünf Fragen.
+# Die nächste Frage soll erst gestellt werden,
+# wenn die aktuelle Frage korrekt beantwortet wurde.
+l = [
+    ("Wie heißt die Hauptstadt von Griechenland?", "Athen"),
+    ("Wie heißt die Hauptstadt von Frankreich?", "Paris"),
+    ("Wie heißt die Hauptstadt von Norwegen?", "Oslo"),
+]
+
+
+# %%
+# Schreiben Sie ein Programm,
+# das einen Text mit der Cäsar-Verschlüsselung kodiert.
+# Aus "Hallo" wird "Kdoor" mit einem Versatz von n = 3.
+# Vgl. https://www.w3schools.com/charsets/ref_html_ascii.asp
+n = 3
+s = "Hallo"
+print(ord("d"))
+print(chr(100))
