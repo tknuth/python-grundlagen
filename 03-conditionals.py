@@ -51,3 +51,27 @@ c = 3 if a > b else 4
 # https://docs.python.org/3/library/stdtypes.html#truth-value-testing
 a or b
 a and b
+
+
+# %%
+# Vervollständigen Sie das Programm.
+x = input("Nenne eine Zahl:")
+print("Die Zahl ist gerade.")
+print("Die Zahl ist ungerade.")
+
+
+# %%
+# Programmieren Sie einen Notenrechner.
+# Die Noten 1,0 bis 4,0 werden linear auf die Punkte 100 bis 50 abgebildet.
+# Ein Ergebnis mit weniger als 50 Punkten entspricht der Note 5,0.
+x = input("Anzahl Punkte:")
+print(f"{x} Punkte entsprechen der Note v")
+
+
+# %%
+# Programmieren Sie Schere, Stein, Papier.
+import random
+
+choices = ["Schere", "Stein", "Papier"]
+player = input("Schere, Stein oder Papier?")
+computer = random.choice(choices)
