@@ -80,3 +80,8 @@ message.strip().lower().capitalize().replace("etwas", "nichts")
 
 # %%
 f"Die Grußformeln sind {greeting=} und {new_greeting=}."
+
+# %%
+# Passen Sie den Code an, sodass die Elemente sortiert ausgegeben werden.
+l = "Apfel, Kiwi, Banane, Avocado, Kirsche, Pflaume"
+sorted(l)
