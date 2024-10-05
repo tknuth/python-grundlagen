@@ -23,6 +23,7 @@ values[2:]
 # `sorted` gibt eine sortierte Kopie der Liste zurück.
 sorted(values)
 
+
 # %%
 # Man kann einen Wert am Ende der Liste anhängen.
 # Es gibt keinen Rückgabewert, weil die ursprüngliche Liste verändert wurde.
@@ -48,6 +49,7 @@ values + values
 a, b, *rest = values
 print(a, b, rest)
 
+
 # %%
 # Listen können verschiedene Objekte beinhalten.
 values = [1, "zwei", 3.0, True, None, [1, 2, 3]]
@@ -62,6 +64,7 @@ values
 # %%
 # Listen können auch verschachtelt sein.
 [[1, 2], [3, 4]]
+
 
 # %%
 # Manche Funktionen werden nicht sofort ausgeführt,
