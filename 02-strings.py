@@ -31,6 +31,14 @@ s[3:5]
 # Beide Grenzen sind optional.
 s[3:]
 
+# %%
+# Ein drittes Argument ist die Schrittweite.
+s[::2]
+
+# %%
+# Prüfen Sie, ob das Wort ein Palindrom ist.
+w = "Lagerregal"
+
 
 # %%
 long_text = (
@@ -54,19 +62,15 @@ new_greeting = greeting.replace("Morgen", "Abend")
 
 
 # %%
+f"Die Grußformeln sind {greeting=} und {new_greeting=}."
+
+
+# %%
 help(str.replace)
 
 
 # %%
 3 * "ab" + "c"
-
-
-# %%
-", ".join(["a", "b", "c"])
-
-
-# %%
-"Dies ist ein Satz, der auch ein Komma enthält.".split()
 
 
 # %%
@@ -79,9 +83,20 @@ message.strip().lower().capitalize().replace("etwas", "nichts")
 
 
 # %%
-f"Die Grußformeln sind {greeting=} und {new_greeting=}."
+", ".join(["a", "b", "c"])
+
+
+# %%
+"Dies ist ein Satz, der auch ein Komma enthält.".split()
+
 
 # %%
 # Passen Sie den Code an, sodass die Elemente sortiert ausgegeben werden.
 l = "Apfel, Kiwi, Banane, Avocado, Kirsche, Pflaume"
 sorted(l)
+
+
+# %%
+# Prüfen Sie, ob die beiden Wörter ein Anagramm bilden.
+a = "Lehm"
+b = "Mehl"
