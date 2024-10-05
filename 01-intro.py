@@ -39,6 +39,11 @@ print("Willkommen zu Python!")
 
 
 # %%
+# Formatierung mit Tausendertrennzeichen
+1_000_000
+
+
+# %%
 import math
 
 math.sqrt(2)
