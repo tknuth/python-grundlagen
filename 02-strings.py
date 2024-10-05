@@ -31,9 +31,11 @@ s[3:5]
 # Beide Grenzen sind optional.
 s[3:]
 
+
 # %%
 # Ein drittes Argument ist die Schrittweite.
 s[::2]
+
 
 # %%
 # Prüfen Sie, ob das Wort ein Palindrom ist.
