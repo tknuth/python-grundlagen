@@ -102,3 +102,9 @@ sorted(l)
 # Prüfen Sie, ob die beiden Wörter ein Anagramm bilden.
 a = "Lehm"
 b = "Mehl"
+
+
+# %%
+# Berechnen Sie die Zeitdifferenz zwischen a und b in Minuten.
+a = "17:45"
+b = "19:15"
