@@ -122,3 +122,24 @@ def fibonacci(n):
 
 
 fibonacci(7)  # 13
+
+
+# %%
+# Entwickeln Sie eine Funktion,
+# welche die Anzahl der Wörter in einem Text zählt.
+def count(text):
+    pass
+    
+
+count("Das Buch hat über 400 Seiten.")  # 6
+
+
+# %%
+# Entwickeln Sie eine Funktion,
+# die ein Wort entgegennimmt und ggf. mit Punkten abkürzt,
+# wenn eine definierte Länge überschritten wird.
+def abbreviate(word, n):
+    pass
+
+
+abbreviate("Programmiersprache", 10)  # Programmie...
