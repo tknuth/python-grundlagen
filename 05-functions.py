@@ -30,19 +30,19 @@ add(3, 4)  # 3 und 4 sind die Argumente
 
 
 # %%
-# Funktionen können in anderen Funktionen verwendet werden.
-# So lassen sich komplexe Operationen in kleinere Teile zerlegen.
-def add_one(x):
-    return add(x, 1)
-
-
-# %%
 # Diese Funktion erwartet exakt zwei Argumente.
 def multiply(x, y):
     return x * y
 
 
 multiply(2, 3)
+
+
+# %%
+# Funktionen können in anderen Funktionen verwendet werden.
+# So lassen sich komplexe Operationen in kleinere Teile zerlegen.
+def double(x):
+    return multiply(x, 2)
 
 
 # %%
