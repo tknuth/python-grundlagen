@@ -5,39 +5,6 @@ inventory = {"Apfel": 2, "Banane": 3}
 
 
 # %%
-inventory["Apfel"] = 1
-
-
-# %%
-inventory["Erdbeere"] = 5
-
-
-# %%
-del inventory["Banane"]
-
-
-# %%
-inventory["Ananas"] = 1
-
-
-# %%
-sorted(inventory)
-
-
-# %%
-values = inventory.values()
-
-
-# %%
-sum(values)
-
-
-# %%
-inventory["Erdbeere"] = 4
-sum(values)
-
-
-# %%
 inventory["Pfirsich"]
 
 
@@ -58,13 +25,28 @@ inventory.pop("Pfirsich")
 
 
 # %%
-print(inventory.pop("Pfirsich", 0))
-inventory
+inventory.pop("Pfirsich", 0)
+
+
+# %%
+del inventory["Banane"]
 
 
 # %%
 print(inventory.setdefault("Heidelbeere", 0))
 inventory
+
+
+# %%
+inventory = {"Apfel": 2, "Banane": 3}
+
+for k in inventory:
+    print(f"{k}: {inventory[k]}")
+
+
+# %%
+for k, v in inventory.items():
+    print(f"{k}: {v}")
 
 
 # %%
@@ -100,12 +82,6 @@ print(1 | 2)
 
 
 # %%
-inventory = {"Apfel": 2, "Banane": 3}
-
-for k in inventory:
-    print(f"{k}: {inventory[k]}")
-
-
-# %%
-for k, v in inventory.items():
-    print(f"{k}: {v}")
+values = inventory.values()
+inventory["Erdbeere"] = 4
+values
