@@ -1,51 +1,47 @@
 #!/usr/bin/env python
 # coding: utf-8
 # %%
-inventory = {"Apfel": 2, "Banane": 3}
+d = {"a": 2, "b": 3, "c": 1, "d": 4}
 
 
 # %%
-inventory["Pfirsich"]
+# Gibt `None` als Standardwert zurück, wenn der Schlüssel nicht existiert.
+d.get("e")
+
+# %%
+# Der Standardwert kann auch gesetzt werden.
+d.get("e", 0)
+
+# %%
+# Entfernt das Schlüssel-Wert-Paar und gibt den Wert zurück.
+# Wenn der Schlüssel nicht existiert, wird ein KeyError geworfen.
+d.pop("d")
 
 
 # %%
-inventory.get("Pfirsich")
+# Um einen KeyError zu verhindern, kann ein Standardwert gesetzt werden.
+d.pop("e", 0)
 
 
 # %%
-inventory.get("Pfirsich", 0)
+# Alternativ kann auch `del` verwendet werden, um ein Schlüssel-Wert-Paar zu entfernen.
+del d["a"]
 
 
 # %%
-inventory.pop("Apfel")
+# Setzt den Wert für einen Schlüssel, wenn dieser nicht existiert.
+d.setdefault("f", 0)
 
 
 # %%
-inventory.pop("Pfirsich")
+d = {"a": 2, "b": 3, "c": 1, "d": 4}
+
+for k in d:
+    print(f"{k}: {d[k]}")
 
 
 # %%
-inventory.pop("Pfirsich", 0)
-
-
-# %%
-del inventory["Banane"]
-
-
-# %%
-print(inventory.setdefault("Heidelbeere", 0))
-inventory
-
-
-# %%
-inventory = {"Apfel": 2, "Banane": 3}
-
-for k in inventory:
-    print(f"{k}: {inventory[k]}")
-
-
-# %%
-for k, v in inventory.items():
+for k, v in d.items():
     print(f"{k}: {v}")
 
 
@@ -82,6 +78,168 @@ print(1 | 2)
 
 
 # %%
-values = inventory.values()
-inventory["Erdbeere"] = 4
+d = {"a": 2, "b": 3}
+values = d.values()
+d["c"] = 4
 values
+
+
+# %%
+# Erstellen Sie ein Dictionary,
+# das die Zahlen von 1 bis 30 als Schlüssel
+# und ihre Quadratzahlen als Werte enthält.
+n = 30
+squares = {}
+
+
+# %%
+# Schreiben Sie ein Programm, das die Häufigkeit der Wörter
+# in einem Text berechnet und in einem Dictionary speichert.
+fruequencies = {}
+text = " ".join(
+    (
+        "Dies ist ein kurzer Text.",
+        "Der Text enthält einige Wörter.",
+        "Einige Wörter sind mehrfach enthalten.",
+    )
+)
+
+# %%
+# Schreiben Sie ein Programm,
+# das eine Einkaufsliste mit Artikelnamen und Anzahlen entgegennimmt
+# und den Gesamtpreis berechnet.
+# Erweitern Sie das Programm, sodass ab einer Bestellmenge von 2 Stück
+# ein Preisnachlass von 10% gewährt wird.
+fruits = [
+    {
+        "name": "apple",
+        "price": 50,
+    },
+    {
+        "name": "banana",
+        "price": 90,
+    },
+    {
+        "name": "cherry",
+        "price": 290,
+    },
+    {
+        "name": "grape",
+        "price": 195,
+    },
+    {
+        "name": "kiwi",
+        "price": 100,
+    },
+    {
+        "name": "lemon",
+        "price": 150,
+    },
+    {
+        "name": "mango",
+        "price": 290,
+    },
+    {
+        "name": "pomegranate",
+        "price": 320,
+    },
+    {
+        "name": "orange",
+        "price": 80,
+    },
+    {
+        "name": "peach",
+        "price": 70,
+    },
+    {
+        "name": "pear",
+        "price": 80,
+    },
+]
+
+
+# %%
+# Erstellen Sie eine Funktion, welche ein Hobby als Argument entgegennimmt
+# und eine Liste von Personen zurückgibt, die dieses Hobby teilen.
+people = [
+    {
+        "name": "Anna",
+        "age": 29,
+        "hobbies": [
+            "reading",
+            "hiking",
+        ],
+    },
+    {
+        "name": "Tim",
+        "age": 35,
+        "hobbies": [
+            "hiking",
+            "swimming",
+        ],
+    },
+    {
+        "name": "Daniel",
+        "age": 24,
+        "hobbies": [
+            "gaming",
+            "reading",
+        ],
+    },
+    {
+        "name": "Jan",
+        "age": 31,
+        "hobbies": [
+            "photography",
+            "hiking",
+        ],
+    },
+    {
+        "name": "Sandra",
+        "age": 28,
+        "hobbies": [
+            "cooking",
+            "reading",
+        ],
+    },
+    {
+        "name": "Jana",
+        "age": 25,
+        "hobbies": [
+            "swimming",
+            "hiking",
+        ],
+    },
+    {
+        "name": "Tom",
+        "age": 33,
+        "hobbies": [
+            "gaming",
+            "photography",
+        ],
+    },
+    {
+        "name": "Lena",
+        "age": 27,
+        "hobbies": [
+            "reading",
+            "swimming",
+        ],
+    },
+    {
+        "name": "Max",
+        "age": 30,
+        "hobbies": [
+            "cycling",
+            "cooking",
+        ],
+    },
+    {
+        "name": "Lisa",
+        "age": 26,
+        "hobbies": [
+            "reading",
+            "hiking",
+        ],
+    },
+]
