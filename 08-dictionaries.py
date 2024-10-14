@@ -8,9 +8,11 @@ d = {"a": 2, "b": 3, "c": 1, "d": 4}
 # Gibt `None` als Standardwert zurück, wenn der Schlüssel nicht existiert.
 d.get("e")
 
+
 # %%
 # Der Standardwert kann auch gesetzt werden.
 d.get("e", 0)
+
 
 # %%
 # Entfernt das Schlüssel-Wert-Paar und gibt den Wert zurück.
@@ -103,6 +105,7 @@ text = " ".join(
         "Einige Wörter sind mehrfach enthalten.",
     )
 )
+
 
 # %%
 # Schreiben Sie ein Programm,
