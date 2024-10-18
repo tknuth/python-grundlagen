@@ -6,15 +6,15 @@ type(True)
 
 # %%
 # Vergleiche ergeben Wahrheitswerte.
-print(f"{1 == 1}")
-print(f"{1 != 0}")
-print(f"{1 >= 0}")
+print(1 == 1)
+print(1 != 0)
+print(1 >= 0)
 
 
 # %%
 # Die beiden Varianten sind äquivalent.
-print(f"{2 > 1 > 0}")
-print(f"{2 > 1 and 1 > 0}")
+print(2 > 1 > 0)
+print(2 > 1 and 1 > 0)
 
 
 # %%
