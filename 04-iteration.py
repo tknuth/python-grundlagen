@@ -45,7 +45,6 @@ while i < 10:
 # Mit `while True` kann eine Endlosschleife erstellt werden,
 # die durch `break` beendet wird.
 i = 2
-n = 100
 while True:
     print(f"2^{i} = {2**i}")
     if input("Fortfahren (j/n)?") != "j":
@@ -57,7 +56,6 @@ while True:
 # In diesem Fall kann die Bedingung allerdings
 # auch direkt zu Beginn geprüft werden.
 i = 2
-n = 100
 while input("Fortfahren (j/n)?") == "j":
     print(f"2^{i} = {2**i}")
     i += 1
