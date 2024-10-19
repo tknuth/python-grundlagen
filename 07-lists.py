@@ -44,6 +44,7 @@ values.reverse()
 # Hierdurch entsteht eine neue Liste.
 values + values
 
+
 # %%
 # Listen können entpackt werden.
 a, b, *rest = values
