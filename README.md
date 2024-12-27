@@ -193,7 +193,7 @@ Beim Wasserfallmodell werden die Entwicklungsschritte wie Spezifikation, Design,
 
 ### String
 
-Ein String ([Think Python](https://greenteapress.com/thinkpython2/html/thinkpython2009.html), [Formatierung](https://pyformat.info), [`str`](https://docs.python.org/3/library/stdtypes.html#string-methods), [Standard Library](https://docs.python.org/3/library/text.html))ist eine Zeichensequenz, die durch umgebende Anführungszeichen gekennzeichnet wird. Neben Methoden zur Textverarbeitung können Strings auch iteriert werden, das heißt sie lassen sich wie Listen behandeln.
+Ein String ([Think Python](https://greenteapress.com/thinkpython2/html/thinkpython2009.html), [Formatierung](https://pyformat.info), [`str`](https://docs.python.org/3/library/stdtypes.html#string-methods), [Standard Library](https://docs.python.org/3/library/text.html)) ist eine Zeichensequenz, die durch umgebende Anführungszeichen gekennzeichnet wird. Neben Methoden zur Textverarbeitung können Strings auch iteriert werden, das heißt sie lassen sich wie Listen behandeln.
 
 Zur Formatierung von Strings bietet die Methode `str.format()` zahlreiche Konfigurationsmöglichkeiten. Besonders das Modul `re` kann beim Suchen und Ersetzen von Zeichensequenzen in Texten hilfreich sein, beispielsweise bei der Aufbereitung von Texten für maschinelles Lernen.
 
