@@ -27,3 +27,36 @@ if (n := 7) > 5:
 while line := file.readline():
     process_line(line)
 ```
+
+### Zuweisung
+
+Bei einer Zuweisung wird einem Variablennamen ein Wert zugeordnet. Auf der linken Seite der Zuweisung steht der Variablenname, auf der rechten ein Ausdruck.
+
+```python
+x = 1
+
+y = a > b
+
+z = "Hallo"
+```
+
+### Datentyp
+
+Ein Datentyp definiert, welche Art von Wert eine Variable speichert. Der Datentyp gibt Auskunft darüber, welche Operationen in Verbindung mit der Variable unterstützt werden. Python ist dynamisch typisiert. Das bedeutet, dass der Datentyp weder deklariert werden noch konstant sein muss. Die Verwendung von Typ-Annotationen zur expliziten Angabe des Datentyps ist für die leichtere Entwicklung und Wartbarkeit empfehlenswert.
+
+```python
+>>> type(1)
+int
+
+>>> type(1.0)
+float
+
+>>> type({})
+dict
+
+>>> type(True)
+bool
+
+>>> type(None)
+NoneType
+```
