@@ -185,6 +185,32 @@ Mengen sind Zusammenfassungen von Objekten ohne Wiederholungen. Mengen verhalten
 True
 ```
 
+### Software
+
+Software besteht aus Programmen und Dokumentation. Gute Software erfüllt die Anforderungen an Funktionalität und Leistungsfähigkeit und ist wartbar, verständlich dokumentiert, leicht einsetzbar und erweiterbar. Software kann mithilfe vieler verschiedener Ansätze entwickelt werden, darunter das klassische Wasserfallmodell und die agile Entwicklung.
+
+Beim Wasserfallmodell werden die Entwicklungsschritte wie Spezifikation, Design, Implementierung und Testen nacheinander abgearbeitet. Die agile Entwicklung erfolgt in Iterationen, innerhalb derer einzelne Teile der Anwendung umgesetzt werden, deren Evaluation in die weitere Planung einfließt.
+
+### String
+
+Ein String ([Think Python](https://greenteapress.com/thinkpython2/html/thinkpython2009.html), [Formatierung](https://pyformat.info), [`str`](https://docs.python.org/3/library/stdtypes.html#string-methods), [Standard Library](https://docs.python.org/3/library/text.html))ist eine Zeichensequenz, die durch umgebende Anführungszeichen gekennzeichnet wird. Neben Methoden zur Textverarbeitung können Strings auch iteriert werden, das heißt sie lassen sich wie Listen behandeln.
+
+Zur Formatierung von Strings bietet die Methode `str.format()` zahlreiche Konfigurationsmöglichkeiten. Besonders das Modul `re` kann beim Suchen und Ersetzen von Zeichensequenzen in Texten hilfreich sein, beispielsweise bei der Aufbereitung von Texten für maschinelles Lernen.
+
+```python
+# Einfache und doppelte Anführungszeichen sind gleichbedeutend
+>>> greeting = "Hallo"
+>>> name = 'Tim'
+
+# Strings können konkateniert werden
+>>> greeting + " " + name + "!"
+'Hallo Tim!'
+
+# f-Strings erlauben die Zusammensetzung komplizierterer Strings
+>>> f"{greeting} {name}, wie geht es dir?"
+'Hallo Tim, wie geht es dir?'
+```
+
 ### Zahl
 
 Zahlen gehören zu den primitiven Datentypen in Python. Es gibt verschiedene Zahlentypen, darunter die am häufigsten verwendeten, `int` für ganze Zahlen und `float` für Fließkommazahlen. Python bietet zudem weitere Module wie `decimal` für die präzise Verarbeitung von Dezimalzahlen an.
