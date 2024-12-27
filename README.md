@@ -125,6 +125,34 @@ l.extend(["many", "elements"]) # None
 l.pop()
 ```
 
+### Klammern
+
+In Python haben runde, eckige und geschweifte Klammern verschiedene Bedeutungen, abhängig vom Kontext. Runde Klammern werden für Funktionsaufrufe und zur Erstellung von Tupeln verwendet. Eckige Klammern dienen zur Erstellung von Listen und zum Slicing. Mit geschweiften Klammern werden Dictionaries und Sets erstellt.
+
+```python
+# Liste erstellen
+l = ["my", "list"]
+
+# Tupel erstellen
+t = ("my", "tuple")
+
+# Slicing
+l[0] # 'my'
+
+# Funktion aufrufen
+len(l) # 2
+
+# Dictionary erstellen
+d = {"key": "value"}
+
+# Set erstellen
+s = {"my", "set"}
+```
+
+### None
+
+In Python bezeichnet `None` ein spezielles Objekt, um darzustellen, dass eine Variable keinen Wert hat. Funktionen geben zudem `None` zurück, wenn kein expliziter Rückgabewert definiert wurde.
+
 ### Typ-Annotationen
 
 Typ-Annotationen sind in Python optional. Sie helfen, den Code durch durch explizite Angabe von Typen robuster zu machen. Werkzeuge wie VSCode können die Typ-Annotationen zur Autovervollständigung nutzen und Bibliotheken zur statischen Codeanalyse können Typfehler frühzeitig erkennen.
@@ -135,6 +163,41 @@ def add(a: int, b: int) -> int:
 
 def greet(name: str) -> str:
     return f"Hallo, {name}!"
+```
+
+### Set
+
+Mengen sind Zusammenfassungen von Objekten ohne Wiederholungen. Mengen verhalten sich ähnlich wie Schlüssel von Dictionaries, allerdings ohne dazugehörige Werte.
+
+```python
+# Erstellen einer leeren Menge
+>>> s = set()
+
+# Hinzufügen von Elementen
+>>> s.add("a")
+>>> s.add("b")
+
+# alternative Erstellung einer nichtleeren Menge
+>>> s = {"a", "b"}
+
+# Prüfung der Zugehörigkeit
+>>> "a" in s
+True
+```
+
+### Zahl
+
+Zahlen gehören zu den primitiven Datentypen in Python. Es gibt verschiedene Zahlentypen, darunter die am häufigsten verwendeten, `int` für ganze Zahlen und `float` für Fließkommazahlen. Python bietet zudem weitere Module wie `decimal` für die präzise Verarbeitung von Dezimalzahlen an.
+
+```python
+>>> 3 + 7 # int
+10
+
+>>> 7 / 3 # float
+3.5
+
+>>> 0.1 + 0.2 == 0.3 # Fließkommazahlen sind nicht immer genau
+False
 ```
 
 ### Zuweisung
