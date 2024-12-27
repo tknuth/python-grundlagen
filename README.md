@@ -37,18 +37,6 @@ bool
 NoneType
 ```
 
-### Zuweisung
-
-Bei einer Zuweisung wird einem Variablennamen ein Wert zugeordnet. Auf der linken Seite der Zuweisung steht der Variablenname, auf der rechten ein Ausdruck.
-
-```python
-x = 1
-
-y = a > b
-
-z = "Hallo"
-```
-
 ### Typ-Annotationen
 
 Typ-Annotationen sind in Python optional. Sie helfen, den Code durch durch explizite Angabe von Typen robuster zu machen. Werkzeuge wie VSCode können die Typ-Annotationen zur Autovervollständigung nutzen und Bibliotheken zur statischen Codeanalyse können Typfehler frühzeitig erkennen.
@@ -59,4 +47,16 @@ def add(a: int, b: int) -> int:
 
 def greet(name: str) -> str:
     return f"Hallo, {name}!"
+```
+
+### Zuweisung
+
+Bei einer Zuweisung wird einem Variablennamen ein Wert zugeordnet. Auf der linken Seite der Zuweisung steht der Variablenname, auf der rechten ein Ausdruck.
+
+```python
+x = 1
+
+y = a > b
+
+z = "Hallo"
 ```
