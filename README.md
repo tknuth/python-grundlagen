@@ -37,6 +37,29 @@ bool
 NoneType
 ```
 
+### Dictionary
+
+Dictionaries ([Video](https://www.youtube.com/watch?v=daefaLgNkw0)) speichern Paare aus Schlüsseln und Werten. Sie sind in Python als Hash-Tabellen implementiert ([FAQ](https://docs.python.org/3/faq/design.html#how-are-dictionaries-implemented-in-cpython)), sodass der Zugriff auf Schlüssel und Werte unabhängig von der Größe des Dictionaries ist.
+
+```python
+d = {"name": "Max", "is_student": True}
+
+# Setzen einzelner Werte
+d["age"] = 42
+
+# Abrufen einzelner Werte
+d["name"] # "Max"
+
+# Abrufen eines Werts mit Standardwert
+d.get("is_student", False) # True
+
+# Entfernen und Ausgeben eines Werts
+d.pop("is_student") # True
+
+# Setzen mehrerer Werte
+d.update({"name": "Peter", "age": 38})
+```
+
 ### Typ-Annotationen
 
 Typ-Annotationen sind in Python optional. Sie helfen, den Code durch durch explizite Angabe von Typen robuster zu machen. Werkzeuge wie VSCode können die Typ-Annotationen zur Autovervollständigung nutzen und Bibliotheken zur statischen Codeanalyse können Typfehler frühzeitig erkennen.
