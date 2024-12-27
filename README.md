@@ -18,7 +18,7 @@ def greet(name: str) -> str:
 
 ### Assignment Expression
 
-Assignment Expressions ermöglichen, einer Variable innerhalb eines Ausdrucks einen Wert zuzuweisen. An der entsprechenden Stelle wird ein Doppelpunkt mit einem Gleichheitszeichen kombiniert. Daher nennt man den Operator auch _Walross-Operator_. Dies kann beispielsweise Redundanz in Kontrollstrukturen verringern.
+Assignment Expressions ([PEP 572](https://peps.python.org/pep-0572/)) ermöglichen, einer Variable innerhalb eines Ausdrucks einen Wert zuzuweisen. An der entsprechenden Stelle wird ein Doppelpunkt mit einem Gleichheitszeichen kombiniert. Daher nennt man den Operator auch _Walross-Operator_. Dies kann beispielsweise Redundanz in Kontrollstrukturen verringern.
 
 ```python
 if (n := 7) > 5:
@@ -27,5 +27,3 @@ if (n := 7) > 5:
 while line := file.readline():
     process_line(line)
 ```
-
-- [PEP 572 – Assignment Expressions](https://peps.python.org/pep-0572/)
