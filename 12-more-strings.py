@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# coding: utf-8
 # %%
 long_text = (
     "Dies ist ein langer Text, "
