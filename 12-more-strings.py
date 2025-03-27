@@ -12,6 +12,7 @@ long_text = (
 # %%
 print("Alle drei Wörter\n folgt eine neue\n Zeile.")
 
+
 # %%
 greeting = "Guten Morgen"
 name = "Anna"
@@ -19,6 +20,7 @@ name = "Anna"
 
 # %%
 f"{greeting}, {name}"
+
 
 # %%
 f"Die Grußformel lautet {greeting=} und der Name {name=}."
