@@ -107,4 +107,4 @@ age = 2024 - birth_year
 # %%
 # Korrigieren Sie den Fehler.
 x = input("Gib eine ganze Zahl an:")
-"Das doppelte deiner Zahl lautet " + 2 * x
+"Das Doppelte deiner Zahl lautet " + 2 * x

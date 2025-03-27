@@ -93,7 +93,7 @@ message.strip().lower().capitalize().replace("etwas", "nichts")
 
 
 # %%
-# Passen Sie den Code an, sodass die Elemente sortiert ausgegeben werden.
+# Passen Sie den Code an, sodass die Elemente alphabetisch sortiert ausgegeben werden.
 l = "Apfel, Kiwi, Banane, Avocado, Kirsche, Pflaume"
 sorted(l)
 
