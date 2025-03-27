@@ -64,6 +64,12 @@ new_greeting = greeting.replace("Morgen", "Abend")
 
 
 # %%
+# Der Aufruf gibt einen neuen String in Kleinbuchstaben zurück.
+# Was passiert, wenn man die Klammern weglässt?
+greeting.lower()
+
+
+# %%
 f"Die Grußformeln sind {greeting=} und {new_greeting=}."
 
 
@@ -85,21 +91,21 @@ message.strip().lower().capitalize().replace("etwas", "nichts")
 
 
 # %%
-", ".join(["a", "b", "c"])
-
-
-# %%
-"Dies ist ein Satz, der auch ein Komma enthält.".split()
+# Lesen Sie die Hilfen von `str.split` und `str.join`.
+# Mit welchen Argumenten können die Funktionen verwendet werden?
+", ".join("a, b, c".split(", "))
 
 
 # %%
 # Passen Sie den Code an, sodass die Elemente alphabetisch sortiert ausgegeben werden.
+# Das Ergebnis sollte wieder ein String aus Komma-getrennten Wörtern sein.
 l = "Apfel, Kiwi, Banane, Avocado, Kirsche, Pflaume"
 sorted(l)
 
 
 # %%
 # Prüfen Sie, ob die beiden Wörter ein Anagramm bilden.
+# Beachten Sie dabei, dass die Groß- und Kleinschreibung keine Rolle spielt.
 a = "Lehm"
 b = "Mehl"
 
