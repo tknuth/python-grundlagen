@@ -5,12 +5,7 @@
 
 
 # %%
-'Das Wort "Wort" ist ein Substantiv'
-
-
-# %%
-greeting = "Guten Morgen"
-name = "Anna"
+"Das Wort 'Wort' ist ein Substantiv"
 
 
 # %%
@@ -43,20 +38,12 @@ w = "Lagerregal"
 
 
 # %%
-long_text = (
-    "Dies ist ein langer Text, "
-    "der über mehrere Zeilen geht. "
-    "Das ist praktisch. "
-    "Und so weiter."
-)
+greeting = "Guten Morgen"
+name = "Anna"
 
 
 # %%
 greeting + ", " + name
-
-
-# %%
-f"{greeting}, {name}"
 
 
 # %%
@@ -70,19 +57,7 @@ greeting.lower()
 
 
 # %%
-f"Die Grußformeln sind {greeting=} und {new_greeting=}."
-
-
-# %%
 help(str.replace)
-
-
-# %%
-3 * "ab" + "c"
-
-
-# %%
-print("Alle drei Wörter\n folgt eine neue\n Zeile.")
 
 
 # %%
