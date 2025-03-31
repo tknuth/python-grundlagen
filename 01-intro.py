@@ -91,6 +91,11 @@ type(3.1)
 
 
 # %%
+# Listen speichern Werte in einer bestimmten Reihenfolge.
+values = [1, 2, 3, 4, 5]
+
+
+# %%
 # Was passiert hier?
 a = input("Nenne eine ganze Zahl für a:")
 b = input("Nenne eine ganze Zahl für b:")
