@@ -96,6 +96,11 @@ values = [1, 2, 3, 4, 5]
 
 
 # %%
+# Auf die Werte lässt sich mit einem Index zugreifen.
+values[0]
+
+
+# %%
 # Was passiert hier?
 a = input("Nenne eine ganze Zahl für a:")
 b = input("Nenne eine ganze Zahl für b:")
