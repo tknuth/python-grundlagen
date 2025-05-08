@@ -97,7 +97,7 @@ squares = {}
 # %%
 # Schreiben Sie ein Programm, das die Häufigkeit der Wörter
 # in einem Text berechnet und in einem Dictionary speichert.
-fruequencies = {}
+frequencies = {}
 text = " ".join(
     (
         "Dies ist ein kurzer Text.",
